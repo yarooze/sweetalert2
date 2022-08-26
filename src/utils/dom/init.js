@@ -121,11 +121,6 @@ const setupRTL = (targetElement) => {
   }
 }
 
-/**
- * Add modal + backdrop + no-war message for Russians to DOM
- *
- * @param {SweetAlertOptions} params
- */
 export const init = (params) => {
   // Clean up the old popup container if it exists
   const oldContainerExisted = resetOldContainer()
